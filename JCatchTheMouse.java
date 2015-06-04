@@ -102,6 +102,7 @@ public class JCatchTheMouse extends JFrame implements ActionListener {
 		setLayout(new FlowLayout());
 		// adds congratulation message
 		add(congrats);
+		add(description);
 	}
 	
 	// when user clicks a button 
@@ -138,6 +139,7 @@ public class JCatchTheMouse extends JFrame implements ActionListener {
 			String congratsMsg = "Congratulations! Your percentage is " + percentage + "%.";
 			// sets JLabel congrats to this message
 			congrats.setText(congratsMsg);
+			description.setVisible(false);
 		}
 	}
 	

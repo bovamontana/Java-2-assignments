@@ -17,9 +17,9 @@ public class FileStatistics2 {
 			// calculates word document length to text document length ratio
 			long ratio = doc.length() / text.length();
 			// outputs text file size
-			System.out.println("Text file size: " + text.length() + " bytes.");
+			System.out.println("Quote.txt size: " + text.length() + " bytes.");
 			// outputs word document size
-			System.out.println("Word document size: " + doc.length() + " bytes.");
+			System.out.println("Quote.docx size: " + doc.length() + " bytes.");
 			// outputs word-to-text ratio
 			System.out.println("Ratio: The word document is " + ratio + " times the size of the text file.");
 		} 
